@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d0ccebdf298799f69cc8cc8544fc223d {
+                #map_0ee03a193094b2e38b974c441fdecd64 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_d0ccebdf298799f69cc8cc8544fc223d" ></div>
+            <div class="folium-map" id="map_0ee03a193094b2e38b974c441fdecd64" ></div>
         
 </body>
 <script>
     
     
-            var map_d0ccebdf298799f69cc8cc8544fc223d = L.map(
-                "map_d0ccebdf298799f69cc8cc8544fc223d",
+            var map_0ee03a193094b2e38b974c441fdecd64 = L.map(
+                "map_0ee03a193094b2e38b974c441fdecd64",
                 {
                     center: [35.94656, 139.84871],
                     crs: L.CRS.EPSG3857,
-                    zoom: 8,
+                    zoom: 11,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,39 +60,140 @@
 
         
     
-            var tile_layer_cefdca4efba37d3ac4d498a566797ae3 = L.tileLayer(
+            var tile_layer_e4d54739ad268096e1b27a919ba56144 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_cefdca4efba37d3ac4d498a566797ae3.addTo(map_d0ccebdf298799f69cc8cc8544fc223d);
+            tile_layer_e4d54739ad268096e1b27a919ba56144.addTo(map_0ee03a193094b2e38b974c441fdecd64);
         
     
-            var marker_77725e1ff09d8fdc673826005add67c0 = L.marker(
+            var marker_77f3012d862638983c68b88184a22028 = L.marker(
                 [35.94656, 139.84871],
                 {}
-            ).addTo(map_d0ccebdf298799f69cc8cc8544fc223d);
+            ).addTo(map_0ee03a193094b2e38b974c441fdecd64);
         
     
-        var popup_6b5d7f6b239fdf2fee610613d3d1f801 = L.popup({"maxWidth": "100%"});
+        var popup_42ed59c222bac52d6d8df32fc08dba76 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_291cf2508ac54b7d2f9217f2097e401d = $(`<div id="html_291cf2508ac54b7d2f9217f2097e401d" style="width: 100.0%; height: 100.0%;">洋菓子</div>`)[0];
-                popup_6b5d7f6b239fdf2fee610613d3d1f801.setContent(html_291cf2508ac54b7d2f9217f2097e401d);
+                var html_20b714b5dddcf50f0f9919ecda767471 = $(`<div id="html_20b714b5dddcf50f0f9919ecda767471" style="width: 100.0%; height: 100.0%;">洋菓子</div>`)[0];
+                popup_42ed59c222bac52d6d8df32fc08dba76.setContent(html_20b714b5dddcf50f0f9919ecda767471);
             
         
 
-        marker_77725e1ff09d8fdc673826005add67c0.bindPopup(popup_6b5d7f6b239fdf2fee610613d3d1f801)
+        marker_77f3012d862638983c68b88184a22028.bindPopup(popup_42ed59c222bac52d6d8df32fc08dba76)
         ;
 
         
     
     
-            marker_77725e1ff09d8fdc673826005add67c0.bindTooltip(
+            marker_77f3012d862638983c68b88184a22028.bindTooltip(
                 `<div>
                      ドルチェフェリーチェエ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9a06da8be3ad6e4a0d2e2cff8ea5b3c = L.marker(
+                [35.8472237, 139.95483794],
+                {}
+            ).addTo(map_0ee03a193094b2e38b974c441fdecd64);
+        
+    
+        var popup_96e101719df5d46320eeb4ff72abef66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b91900b45ff3ca76c2ab254c94984243 = $(`<div id="html_b91900b45ff3ca76c2ab254c94984243" style="width: 100.0%; height: 100.0%;">洋菓子</div>`)[0];
+                popup_96e101719df5d46320eeb4ff72abef66.setContent(html_b91900b45ff3ca76c2ab254c94984243);
+            
+        
+
+        marker_c9a06da8be3ad6e4a0d2e2cff8ea5b3c.bindPopup(popup_96e101719df5d46320eeb4ff72abef66)
+        ;
+
+        
+    
+    
+            marker_c9a06da8be3ad6e4a0d2e2cff8ea5b3c.bindTooltip(
+                `<div>
+                     ル・ポワソン・ダヴリル
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f148dc2692b6f6ae137a4c624e71059 = L.marker(
+                [35.83694393027299, 139.9474686380829],
+                {"popoup": "\u30c7\u30b6\u30fc\u30c8\u3000\u30b7\u30e7\u30c3\u30d7"}
+            ).addTo(map_0ee03a193094b2e38b974c441fdecd64);
+        
+    
+            marker_9f148dc2692b6f6ae137a4c624e71059.bindTooltip(
+                `<div>
+                     シャトレーゼ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b395a9812e9f36a11cb4d216d7c31358 = L.marker(
+                [35.827423702114416, 139.93575811352474],
+                {}
+            ).addTo(map_0ee03a193094b2e38b974c441fdecd64);
+        
+    
+        var popup_c148b9885f00b34a11bce9a5569cd2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e406fa078c3b26aa113ea780cf0e53a8 = $(`<div id="html_e406fa078c3b26aa113ea780cf0e53a8" style="width: 100.0%; height: 100.0%;">ケーキ屋</div>`)[0];
+                popup_c148b9885f00b34a11bce9a5569cd2e6.setContent(html_e406fa078c3b26aa113ea780cf0e53a8);
+            
+        
+
+        marker_b395a9812e9f36a11cb4d216d7c31358.bindPopup(popup_c148b9885f00b34a11bce9a5569cd2e6)
+        ;
+
+        
+    
+    
+            marker_b395a9812e9f36a11cb4d216d7c31358.bindTooltip(
+                `<div>
+                     パティスリー　マーサ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0df9475c4621580bd45ba7f5eaa03da5 = L.marker(
+                [35.84126776473283, 139.9697271675617],
+                {}
+            ).addTo(map_0ee03a193094b2e38b974c441fdecd64);
+        
+    
+        var popup_1bea4c2fc37d3cac0271b074978f56c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_730336853483295484ce1b7493384a18 = $(`<div id="html_730336853483295484ce1b7493384a18" style="width: 100.0%; height: 100.0%;">洋菓子店</div>`)[0];
+                popup_1bea4c2fc37d3cac0271b074978f56c5.setContent(html_730336853483295484ce1b7493384a18);
+            
+        
+
+        marker_0df9475c4621580bd45ba7f5eaa03da5.bindPopup(popup_1bea4c2fc37d3cac0271b074978f56c5)
+        ;
+
+        
+    
+    
+            marker_0df9475c4621580bd45ba7f5eaa03da5.bindTooltip(
+                `<div>
+                     オランダ家新柏店
                  </div>`,
                 {"sticky": true}
             );
